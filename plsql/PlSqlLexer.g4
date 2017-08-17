@@ -308,7 +308,7 @@ PERCENT_NOTFOUND:             '%' [Nn][Oo][Tt][Ff][Oo][Uu][Nn][Dd];
 PERCENT_ROWCOUNT:             '%' [Rr][Oo][Ww][Cc][Oo][Uu][Nn][Tt];
 PERCENT_ROWTYPE:              '%' [Rr][Oo][Ww][Tt][Yy][Pp][Ee];
 PERCENT_TYPE:                 '%' [Tt][Yy][Pp][Ee];
-PIPE:                         'PIPE';
+PIPE:                         [Pp][Ii][Pp][Ee];
 PIPELINED:                    [Pp][Ii][Pp][Ee][Ll][Ii][Nn][Ee][Dd];
 PIVOT:                        [Pp][Ii][Vv][Oo][Tt];
 PLAN:                         [Pp][Ll][Aa][Nn];
@@ -516,9 +516,9 @@ SUM:                          [Ss][Uu][Mm];
 STDDEV:                       [Ss][Tt][Dd][Dd][Ee][Vv];
 VAR_:                         [Vv][Aa][Rr]'_';
 VARIANCE:                     [Vv][Aa][Rr][Ii][Aa][Nn][Cc][Ee];
-LEAST:                        'LEAST';
-GREATEST:                     'GREATEST';
-TO_DATE:                      'TO_DATE';
+LEAST:                        [Ll][Ee][Aa][Ss][Tt];
+GREATEST:                     [Gg][Rr][Ee][Aa][Tt][Ee][Ss][Tt];
+TO_DATE:                      [Tt][Oo] '_' [Dd][Aa][Tt][Ee];
 
 // Rule #358 <NATIONAL_CHAR_STRING_LIT> - subtoken typecast in <REGULAR_ID>, it also incorporates <character_representation>
 //  Lowercase 'n' is a usual addition to the standard
