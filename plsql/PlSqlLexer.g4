@@ -628,7 +628,7 @@ INTRODUCER
     ;*/
 //}
 
-SPACES: [ \t\r\n]+ -> skip;
+SPACES: [ \t\r\n]+ -> channel(HIDDEN);
     
 //{ Rule #504 <SIMPLE_LETTER> - simple_latin _letter was generalised into SIMPLE_LETTER
 //  Unicode is yet to be implemented - see NSF0
