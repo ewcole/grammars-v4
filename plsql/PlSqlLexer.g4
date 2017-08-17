@@ -634,7 +634,7 @@ SPACES: [ \t\r\n]+ -> skip;
 //  Unicode is yet to be implemented - see NSF0
 fragment
 SIMPLE_LETTER
-    : [A-Z]
+    : [A-Za-z]
     ;
 //}
 
